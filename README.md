@@ -1,6 +1,21 @@
 # Smartphone E-Commerce Website
 
-Welcome to the **Smartphone** e-commerce website! This project is built using modern web technologies and provides a robust platform for users to browse, compare, and purchase smartphones online. 
+Welcome to the **Smartphone** e-commerce website! 
+
+This project is designed to offer users a seamless and engaging online shopping experience for smartphones. Built using modern web technologies, **Smartphone** provides a robust platform that allows users to:
+
+- **Browse**: Explore a wide range of smartphones from various brands, complete with detailed specifications, images, and pricing information. Our user-friendly interface makes it easy to navigate through different categories and find the perfect device that suits your needs.
+
+- **Compare**: Take advantage of our product comparison feature, which enables users to evaluate multiple smartphones side by side. Compare specifications, features, and prices to make informed purchasing decisions.
+
+- **Purchase**: Enjoy a secure and straightforward checkout process with multiple payment options, including online banking. Our platform ensures that your transactions are safe and that your personal information is protected.
+
+In addition to these core functionalities, **Smartphone** includes advanced features such as the ability to create variable products, generate discount vouchers, and access detailed statistics on user behavior and sales performance. 
+
+Our commitment to user security is paramount; we utilize JWT (JSON Web Tokens) for secure authentication and bcrypt for password encryption, ensuring that your data remains safe while you shop.
+
+Whether you are a tech enthusiast looking for the latest models or a casual shopper seeking the best deals, **Smartphone** is your go-to destination for all things mobile. Join us on this exciting journey and experience the future of online shopping!
+
 
 ## Table of Contents
 
