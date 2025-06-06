@@ -39,20 +39,19 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/smartphone.git
-   cd smartphone
+   git clone https://github.com/nguyenphamducanh366/Ecommerce-Smartphones.git
    ```
 
 2. **Install dependencies for the backend**:
    ```bash
    cd backend
-   npm install
+   npm i
    ```
 
 3. **Install dependencies for the frontend**:
    ```bash
    cd ../frontend
-   npm install
+   npm i
    ```
 
 ## Running the Application
