@@ -9,8 +9,6 @@ Welcome to the **Smartphone** e-commerce website! This project is built using mo
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
 - [Security](#security)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -76,15 +74,5 @@ To run the application, follow these commands:
 ## Security
 
 The application uses JWT (JSON Web Tokens) for user authentication and bcrypt for password hashing to ensure user data is securely managed.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a pull request or open an issue for any enhancements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 Thank you for checking out the Smartphone e-commerce website! We hope you find it useful and enjoyable.
