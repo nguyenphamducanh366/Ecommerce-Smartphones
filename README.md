@@ -1,4 +1,5 @@
 # Smartphone E-Commerce Website
+![image](https://github.com/user-attachments/assets/4f6e11f5-eb1e-4a85-b152-626c90fce992)
 
 Welcome to the **Smartphone** e-commerce website! 
 
@@ -26,16 +27,25 @@ Whether you are a tech enthusiast looking for the latest models or a casual shop
 - [Security](#security)
 
 ## Features
+![image](https://github.com/user-attachments/assets/be9c3273-5a66-4670-bda3-81e0619809a3)
 
 - **Variable Products**: Create and manage a variety of smartphone products.
+  ![image](https://github.com/user-attachments/assets/0f6bde2e-93c7-41bd-b97e-2c083cfaaaca)
+
 - **Vouchers**: Generate discount vouchers for promotional offers.
+  ![image](https://github.com/user-attachments/assets/5881b54e-e5ae-4f46-9a2e-3da77af710b4)
+
 - **Online Banking**: Integrate online payment options for seamless transactions.
+  ![image](https://github.com/user-attachments/assets/728d207d-a2d7-441b-b4e5-c788164e1531)
+
 - **Product Comparison**: Compare different smartphones based on specifications and prices.
+  ![image](https://github.com/user-attachments/assets/ee8264da-2f03-491d-bb97-371015e2b7a2)
+
 - **Product Evaluation**: Allow users to leave reviews and ratings for products.
+  ![image](https://github.com/user-attachments/assets/998ffce8-2294-4737-86a0-17810fcf18aa)
+
 - **Statistics Pages**: Access functioning statistics pages for insights into sales and user behavior.
 - **User Security**: Secure user accounts with JWT tokens and bcrypt for password encryption.
-
-## Technologies Used
 
 ## Technologies Used
 
