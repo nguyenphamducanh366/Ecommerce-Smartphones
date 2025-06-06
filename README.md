@@ -22,16 +22,33 @@ Welcome to the **Smartphone** e-commerce website! This project is built using mo
 
 ## Technologies Used
 
+## Technologies Used
+
 - **Frontend**: 
   - React.js
   - Vite
   - Tailwind CSS
   - Bootstrap CSS
   - Ant Design
+  - Axios (for HTTP requests)
+  - Framer Motion (for animations)
+  - React Router (for routing)
+  - Chart.js and Recharts (for data visualization)
+  - Socket.IO (for real-time communication)
 
 - **Backend**: 
   - Node.js
-  - MongoDB
+  - Express.js (for server-side framework)
+  - MongoDB (for database management)
+  - Mongoose (for MongoDB object modeling)
+  - JWT (for user authentication)
+  - Bcrypt.js (for password hashing)
+  - Cloudinary (for media storage)
+  - dotenv (for environment variable management)
+  - Cors (for enabling Cross-Origin Resource Sharing)
+  - Multer (for handling file uploads)
+  - Joi (for data validation)
+
 
 ## Installation
 
