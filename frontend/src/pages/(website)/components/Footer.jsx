@@ -11,21 +11,15 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Thông tin hỗ trợ</h3>
             <div className="mb-4">
               <span className="text-blue-500">
-                <i className="fa fa-map-marker mr-2"></i>
-              </span>
-              Số 9, Trịnh Văn Bô, Nam Từ Liêm, Hà Nội
-            </div>
-            <div className="mb-4">
-              <span className="text-blue-500">
                 <i className="fa fa-phone mr-2"></i>
               </span>
-              +084-123-4567 / 89
+             0332417843
             </div>
             <div>
               <span className="text-blue-500">
                 <i className="fa fa-envelope mr-2"></i>
               </span>
-              nhom1@gmail.com
+             nguyenphamducanh366@gmail.com
             </div>
           </div>
 
@@ -94,23 +88,11 @@ const Footer = () => {
               Liên lạc với chúng tôi
             </h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-600 hover:text-blue-500">
+              <a href="https://www.facebook.com/nguyen.pham.duc.anh.2024" target="blank" className="text-gray-600 hover:text-blue-500">
                 <i className="fa fa-facebook text-2xl" />
               </a>
-              <a href="#" className="text-gray-600 hover:text-blue-500">
-                <i className="fa fa-twitter text-2xl" />
-              </a>
-              <a href="#" className="text-gray-600 hover:text-blue-500">
-                <i className="fa fa-google-plus text-2xl" />
-              </a>
-              <a href="#" className="text-gray-600 hover:text-blue-500">
+              <a href="https://www.linkedin.com/in/duc-anh-nguyen-pham-b33b3b366/" target="blank" className="text-gray-600 hover:text-blue-500">
                 <i className="fa fa-linkedin text-2xl"></i>
-              </a>
-              <a href="#" className="text-gray-600 hover:text-blue-500">
-                <i className="fa fa-pinterest-p text-2xl"></i>
-              </a>
-              <a href="#" className="text-gray-600 hover:text-blue-500">
-                <i className="fa fa-instagram text-2xl"></i>
               </a>
             </div>
           </div>
@@ -137,7 +119,7 @@ const Footer = () => {
           <p className="text-sm">
             Copyright © All Rights Reserved 2025 by{" "}
             <a href="#" target="_blank" className="text-yellow-500">
-              Nhom 1
+                          nguyenphamducanh366@gmail.com
             </a>
           </p>
         </div>

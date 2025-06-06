@@ -243,9 +243,8 @@ const Header = () => {
       <div className="bg-gray-100 py-2">
         <div className="container mx-auto px-6 flex justify-between text-sm text-gray-600">
           <p className="hidden lg:block">
-            📍 Số 9, Trịnh Văn Bô, Nam Từ Liêm, Hà Nội
           </p>
-          <p>📞 +084-123-4567 | 📩 nhom1@laptrinhweb.com</p>
+          <p>📞 0332417843 | 📩nguyenphamducanh366@gmail.com</p>
         </div>
       </div>
 

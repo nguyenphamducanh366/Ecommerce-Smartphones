@@ -18,7 +18,6 @@ const EditPromotion = () => {
   const [form] = Form.useForm();
   const navigate = useNavigate();
   const { id } = useParams();
-  const loaiKM = Form.useWatch("LoaiKM", form);
 
   useEffect(() => {
     const fetchPromotion = async () => {
@@ -128,8 +127,8 @@ const EditPromotion = () => {
                 const loaiKM = getFieldValue("LoaiKM");
                 if (value === undefined)
                   return Promise.reject("Vui lòng nhập giá trị");
-                if (value <= 0)
-                  return Promise.reject("Giá trị không được âm hoặc 0");
+                if (value < 0)
+                  return Promise.reject("Giá trị không được là số âm");
                 if (loaiKM === "percentage") {
                   if (!Number.isInteger(value))
                     return Promise.reject(
@@ -166,13 +165,17 @@ const EditPromotion = () => {
         </Form.Item>
 
         {/* Kiểm tra nếu Loại Khuyến Mãi không phải là 'fixed', mới hiển thị trường Giảm Tối Đa */}
-        {loaiKM !== "fixed" && (
+        {form.getFieldValue("LoaiKM") !== "fixed" && (
           <Form.Item
             label="Giảm Tối Đa"
             name="GiamToiDa"
             rules={[
               { required: true, message: "Giảm tối đa là trường bắt buộc" },
-              { type: "number", min: 0, message: "Giảm tối đa không được âm" },
+              {
+                type: "number",
+                min: 0,
+                message: "Giảm tối đa không được âm",
+              },
             ]}
           >
             <InputNumber

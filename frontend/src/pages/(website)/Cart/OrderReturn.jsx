@@ -18,7 +18,7 @@ const OrderReturn = () => {
         const response = await handleVNPayReturn(params);
         
         if (response.data.success) {
-          // Kiểm tra mã phản hồi VNPay .....
+          // Kiểm tra mã phản hồi VNPay
           if (params.vnp_ResponseCode === '00') {
             message.success('Thanh toán thành công!');
           } else {
